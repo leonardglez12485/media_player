@@ -1,0 +1,112 @@
+/* --Configuracion inicial de estilos--*/
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Player */
+
+.player {
+    min-width: 320px;
+    background-image: linear-gradient(black, gray);
+    color: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 3px 3px 3px black;
+}
+
+
+/* Titulo */
+
+.title {
+    margin-top: 0px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+/* Cover */
+
+.cover {
+    width: 168px;
+    height: auto;
+    border-radius: .3rem;
+    display: block;
+    margin: 0 auto 1rem auto;
+    background-color: gray;
+    box-shadow: 3px 3px 3px black;
+}
+
+
+/* Progress Bar */
+
+.progress-bar {
+    height: .6rem;
+    background-color: lightgray;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    box-shadow: 1px 1px 1px black;
+}
+
+.progress {
+    border-radius: 4px;
+    background-color: goldenrod;
+    height: 100%;
+    width: 0%;
+}
+
+
+/* Controls */
+
+.controls {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+}
+
+.controls button {
+    background-color: transparent;
+    border: none;
+}
+
+.controls i {
+    font-size: 1.6rem;
+    color: white;
+}
+
+
+/* Songs */
+
+.songs {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.songs li {
+    margin-bottom: .8rem;
+}
+
+.songs a {
+    color: lightgrey;
+    text-decoration: none;
+}
+
+.songs a.active {
+    color: white;
+    font-weight: bold;
+}
