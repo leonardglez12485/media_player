@@ -1,19 +1,14 @@
 //--Lista de Reproduccion 
 
 const songList = [{
+        title: "El de la Cornetica",
+        file: "el_de_la_cornetica.mp3",
+        cover: "1.png"
+    },
+    {
         title: "Broken",
         file: "broken.mp3",
-        cover: "1.jpeg"
-    },
-    {
-        title: "Pop Inspirational",
-        file: "popinspirational.mp3",
         cover: "2.jpeg"
-    },
-    {
-        title: "Trendy Summer",
-        file: "trendysummer.mp3",
-        cover: "3.jpeg"
     },
 ]
 
